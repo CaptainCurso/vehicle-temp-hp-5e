@@ -1,0 +1,39 @@
+{
+  "id": "vehicle-temp-hp-5e",
+  "title": "Vehicle Temp HP 5e",
+  "description": "Exposes native dnd5e vehicle temporary hit points on vehicle sheets.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Nicholas McDowell"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/vehicle-temp-hp-5e.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
